@@ -28,7 +28,7 @@ body {
 
 
 /* Estilização do cartão */
-.cartao {
+#cartao {
 
     /* Define a largura do cartão */
     width: 420px;
@@ -51,7 +51,7 @@ body {
 
 
 /* Estilização da foto */
-.foto {
+#foto {
 
     /* Define a largura da foto */
     width: 120px;
@@ -85,7 +85,7 @@ h1 {
 
 
 /* Estilização da profissão/atividade */
-.profissao {
+#profissao {
 
     /* Cor do texto */
     color: #777;
@@ -116,7 +116,7 @@ h1 {
 
 
 /* Área das informações */
-.informacoes {
+#informacoes {
 
     /* Alinha o texto das informações à esquerda */
     text-align: left;
@@ -127,7 +127,7 @@ h1 {
 
 
 /* Cada informação do cartão */
-.informacoes p {
+#informacoes p {
 
     /* Espaçamento entre as informações */
     margin: 10px 0;
@@ -138,7 +138,7 @@ h1 {
 
 
 /* Destaque dos títulos das informações */
-.informacoes strong {
+#informacoes strong {
 
     /* Cor dos títulos */
     color: #6c3483;
@@ -146,27 +146,27 @@ h1 {
 
 
 /* Área do projeto */
-.atividade {
+#atividade {
     margin-top: 25px;
     text-align: left;
 }
 
 /* Título da área */
-.atividade h2 {
+#atividade h2 {
     color: #6c3483;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
 /* Nome do projeto */
-.atividade h3 {
+#atividade h3 {
     color: #444;
     font-size: 16px;
     margin-bottom: 8px;
 }
 
 /* Descrição do projeto */
-.atividade p {
+#atividade p {
     color: #666;
     text-align: justify;
     font-size: 14px;
@@ -175,19 +175,19 @@ h1 {
 }
 
 /* Link do projeto */
-.atividade a {
+#atividade a {
     color: #9b59b6;
     font-weight: bold;
     text-decoration: none;
 }
 
 /* Efeito ao passar o mouse */
-.atividade a:hover {
+#atividade a:hover {
     text-decoration: underline;
 }
 
 /* Área das redes sociais */
-.redes {
+#redes {
 
     /* Espaçamento acima dos ícones */
     margin-top: 25px;
@@ -204,7 +204,7 @@ h1 {
 
 
 /* Links das redes sociais */
-.redes a {
+#redes a {
 
     /* Define o tamanho da área clicável */
     width: 40px;
@@ -224,7 +224,7 @@ h1 {
 
 
 /* Ícones das redes sociais */
-.redes img {
+#redes img {
 
     /* Define o tamanho dos ícones */
     width: 35px;
@@ -239,7 +239,7 @@ h1 {
 
 
 /* Efeito quando passar o mouse sobre os ícones */
-.redes a:hover img {
+#redes a:hover img {
 
     /* Aumenta levemente o ícone */
     transform: scale(1.15);
