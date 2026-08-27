@@ -1,171 +1,89 @@
-/* Remove margens e espaçamentos padrão dos elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    /* Define a fonte utilizada na página */
     font-family: Georgia, sans-serif;
 }
 
-
-/* Estilização do corpo da página */
 body {
 
-    /* Ocupa pelo menos toda a altura da tela */
-    min-height: 100vh;
-
-    /* Centraliza o cartão horizontalmente */
+   min-height: 100vh;
     display: flex;
-
-    /* Centraliza o cartão verticalmente */
     justify-content: center;
     align-items: center;
-
-    /* Cor de fundo da página */
     background: #f2eafa;
 }
 
-
-/* Estilização do cartão */
 #cartao {
-
-    /* Define a largura do cartão */
     width: 420px;
-
-    /* Espaçamento interno */
     padding: 35px;
-
-    /* Cor de fundo do cartão */
     background: white;
-
-    /* Arredonda os cantos */
     border-radius: 20px;
-
-    /* Cria uma sombra ao redor do cartão */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-
-    /* Centraliza os textos */
     text-align: center;
 }
 
 
-/* Estilização da foto */
+
 #foto {
-
-    /* Define a largura da foto */
     width: 120px;
-
-    /* Define a altura da foto */
     height: 120px;
-
-    /* Deixa a foto redonda */
     border-radius: 50%;
-
-    /* Faz a imagem preencher o espaço sem deformar */
     object-fit: cover;
-
-    /* Cria uma borda ao redor da foto */
     border: 4px solid #9b59b6;
-
-    /* Espaçamento abaixo da foto */
     margin-bottom: 15px;
 }
 
 
-/* Estilização do nome */
 h1 {
-
-    /* Cor do nome */
     color: #6c3483;
-
-    /* Espaçamento abaixo do nome */
     margin-bottom: 5px;
 }
 
-
-/* Estilização da profissão/atividade */
 #profissao {
-
-    /* Cor do texto */
     color: #777;
-
-    /* Tamanho da fonte */
     font-size: 16px;
-
-    /* Espaçamento abaixo */
     margin-bottom: 20px;
 }
 
-
-/* Linha decorativa */
 .linha {
-
-    /* Largura da linha */
     width: 60px;
-
-    /* Altura da linha */
     height: 3px;
-
-    /* Cor da linha */
     background: #9b59b6;
-
-    /* Centraliza a linha */
     margin: 0 auto 20px;
 }
 
-
-/* Área das informações */
 #informacoes {
-
-    /* Alinha o texto das informações à esquerda */
     text-align: left;
-
-    /* Espaçamento superior */
     margin-top: 15px;
 }
 
-
-/* Cada informação do cartão */
 #informacoes p {
-
-    /* Espaçamento entre as informações */
     margin: 10px 0;
-
-    /* Cor do texto */
     color: #444;
 }
 
-
-/* Destaque dos títulos das informações */
 #informacoes strong {
-
-    /* Cor dos títulos */
     color: #6c3483;
 }
 
-
-/* Área do projeto */
 #atividade {
     margin-top: 25px;
     text-align: left;
 }
 
-/* Título da área */
 #atividade h2 {
     color: #6c3483;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-/* Nome do projeto */
 #atividade h3 {
     color: #444;
     font-size: 16px;
     margin-bottom: 8px;
 }
 
-/* Descrição do projeto */
 #atividade p {
     color: #666;
     text-align: justify;
@@ -174,73 +92,53 @@ h1 {
     margin-bottom: 12px;
 }
 
-/* Link do projeto */
 #atividade a {
     color: #9b59b6;
     font-weight: bold;
     text-decoration: none;
 }
 
-/* Efeito ao passar o mouse */
 #atividade a:hover {
     text-decoration: underline;
 }
 
-/* Área das redes sociais */
 #redes {
-
-    /* Espaçamento acima dos ícones */
     margin-top: 25px;
-
-    /* Coloca os ícones lado a lado */
     display: flex;
-
-    /* Centraliza os ícones */
-    justify-content: flex-startr;
-
-    /* Espaçamento entre os ícones */
+    justify-content: flex-start;
     gap: 20px;
 }
 
-
-/* Links das redes sociais */
 #redes a {
-
-    /* Define o tamanho da área clicável */
     width: 40px;
     height: 40px;
-
-    /* Centraliza o ícone dentro da área */
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* Remove o sublinhado do link */
     text-decoration: none;
 
-    /* Transição para o efeito */
+
     transition: 0.3s;
 }
 
 
-/* Ícones das redes sociais */
 #redes img {
 
-    /* Define o tamanho dos ícones */
     width: 35px;
     height: 35px;
 
-    /* Mantém a proporção da imagem */
+ 
     object-fit: contain;
 
-    /* Transição suave */
+
     transition: 0.3s;
 }
 
 
-/* Efeito quando passar o mouse sobre os ícones */
+
 #redes a:hover img {
 
-    /* Aumenta levemente o ícone */
+    
     transform: scale(1.15);
 }
