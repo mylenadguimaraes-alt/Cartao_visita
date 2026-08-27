@@ -1,6 +1,6 @@
 # Cartão de Visitas
 
-Página web desenvolvida em **HTML e CSS** como atividade acadêmica para representar um cartão de visitas pessoal.
+Página web desenvolvida em **HTML** como atividade acadêmica para representar um cartão de visitas pessoal.
 
 O projeto apresenta informações de contato, formação acadêmica, redes sociais e um projeto desenvolvido na área de tecnologia.
 
@@ -26,7 +26,6 @@ A página contém:
 ## Tecnologias utilizadas
 
 * HTML5
-* CSS3
 
 ## Estrutura do projeto
 
@@ -34,7 +33,6 @@ A página contém:
 cartao-visitas/
 │
 ├── index.html
-├── style.css
 └── img/
     ├── foto.jpeg
     ├── github.png
@@ -58,4 +56,4 @@ Estudante de Análise e Desenvolvimento de Sistemas.
 
 ---
 
-Desenvolvido como atividade acadêmica de HTML e CSS.
+Desenvolvido como atividade acadêmica de HTML.
