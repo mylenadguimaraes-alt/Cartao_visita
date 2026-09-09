@@ -37,6 +37,7 @@ cartao-visitas/
     ├── foto.jpeg
     ├── github.png
     ├── linkedin.png
+    ├── logo.png
     └── print-site.png
 ```
 
